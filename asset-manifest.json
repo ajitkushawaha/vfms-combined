@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.076c0d4f.css",
-    "main.js": "/static/js/main.96e5cd02.js",
+    "main.js": "/static/js/main.2380168b.js",
     "static/media/virat brochure-1.pdf": "/static/media/virat brochure-1.d0d91c38f961e56ec364.pdf",
     "static/media/service-back.png": "/static/media/service-back.fecb6a224dfc093c2c76.png",
     "static/media/03.png": "/static/media/03.5da771acf3aac8bf14ca.png",
@@ -76,10 +76,10 @@
     "static/media/scrollimg.svg": "/static/media/scrollimg.597a00588c645226b5275239a3d6bcde.svg",
     "index.html": "/index.html",
     "main.076c0d4f.css.map": "/static/css/main.076c0d4f.css.map",
-    "main.96e5cd02.js.map": "/static/js/main.96e5cd02.js.map"
+    "main.2380168b.js.map": "/static/js/main.2380168b.js.map"
   },
   "entrypoints": [
     "static/css/main.076c0d4f.css",
-    "static/js/main.96e5cd02.js"
+    "static/js/main.2380168b.js"
   ]
 }
