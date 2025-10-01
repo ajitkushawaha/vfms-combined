@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Serve React app static files
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(__dirname));
 
 // Proxy WordPress requests to WordPress service
 app.use('/blog', createProxyMiddleware({
@@ -39,7 +39,7 @@ app.get('*', (req, res) => {
   if (req.path.startsWith('/blog')) {
     return res.status(404).send('Blog not found');
   }
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {
